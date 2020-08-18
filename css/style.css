@@ -22,6 +22,12 @@ nav .nav-link:hover{
 	
 }
 
+.testing {
+	width: 1200px;
+	border-radius: 30px;
+	opacity: 0.9;
+}
+
 
 /* 배너 */
 .carousel-inner {
@@ -30,6 +36,14 @@ nav .nav-link:hover{
 	background: #fbd6e3;
 }
 
+.jt {
+	background-color: #D8E9EF;
+}
+
+.jt .jtdiv {
+	border-radius: 30px;
+	color: red;
+}
 /* 메인 */
 
 main {
