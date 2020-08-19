@@ -18,13 +18,24 @@ nav .nav-link {
 	font-weight: bold;
 }
 
-nav .nav-link:hover{
+nav li a:hover{
+	padding-bottom:0px;
+  color:#fff;
+  border-bottom: 4px solid red;
 	
 }
 
+nav li a:active{
 
+padding-bottom:0px;
+	border-bottom: 4px solid green;
+}
 
 /* 배너 */
+
+.jt {
+	background-color: #E9ECEF;
+}
 
 /* 메인 */
 
@@ -41,3 +52,4 @@ footer {
 	background-color: #fff;
 	color: red;
 }
+

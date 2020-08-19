@@ -20,12 +20,14 @@
 	<script src="js/jquery-3.5.1.min.js"></script>
 	<!-- 부트스트랩 JS -->
 	<script src="js/bootstrap.min.js"></script>
+	<!-- 메인 JS -->
+	<script src="js/main.js"></script>
 </head>
 
 <body>
 	<!-- 헤더 -->
 	<header>
-		<!-- 탑 헤더 -->
+		<!-- 탑 컨테이너 -->
 		<div class="container p-2">
 
 			<!-- 그리드 -->
@@ -52,6 +54,8 @@
 				</div>
 			</div>
 		</div>
+		<!-- 탑 컨테이너 -->
+		
 		<!-- 네비게이션바 -->
 		<nav class="navbar navbar-expand-lg mt-3">
 			<div class="collapse navbar-collapse justify-content-center container">
@@ -79,6 +83,7 @@
 				</ul>
 			</div>
 		</nav>
+		<!-- 네비게이션바 -->
 	</header>
 
 	<!-- 점보트론 -->
@@ -91,6 +96,8 @@
 			<img src="imgs/[크기변환]제목을 입력해주세요._5.png">
 		</div>
 	</div> -->
+
+	
 
 	<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center  jt">
 		<div class="col-md-12 mx-auto ">
@@ -114,7 +121,7 @@
 							<img src="imgs/444.jpeg" class="d-block w-100" alt="...">
 						</div>
 						<div class="carousel-item">
-							<img src="imgs/55555.png" class="d-block w-100" alt="...">
+							<img src="imgs/[크기변환][크기변환]제목을 입력해주세요._5.png" class="d-block w-100" alt="...">
 						</div>
 					</div>
 					<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -130,12 +137,60 @@
 		</div>
 	</div>
 
+	
 
-	< <!-- 메인 -->
+
+	 <!-- 메인 -->
 		<main>
 			<div class="container">
-				<!-- 인기 게시글 -->
+				<!-- 공지사항 -->
 				<div class="row">
+					<div class="col-md-4">
+						<div class="my-3 p-3 bg-white rounded shadow-sm">
+							<h6 class="border-bottom border-gray pb-2 mb-0">공지사항</h6>
+							<div class="media text-muted pt-3">
+								<svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg"
+									preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32">
+									<title>Placeholder</title>
+									<rect width="100%" height="100%" fill="#007bff"></rect><text x="50%" y="50%" fill="#007bff"
+										dy=".3em">32x32</text>
+								</svg>
+								<p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+									<strong class="d-block text-gray-dark">최종인 바보</strong>
+									글 내용
+								</p>
+							</div>
+							<div class="media text-muted pt-3">
+								<svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg"
+									preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32">
+									<title>Placeholder</title>
+									<rect width="100%" height="100%" fill="#e83e8c"></rect><text x="50%" y="50%" fill="#e83e8c"
+										dy=".3em">32x32</text>
+								</svg>
+								<p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+									<strong class="d-block text-gray-dark">최종인 바보</strong>
+									글 내용
+								</p>
+							</div>
+							<div class="media text-muted pt-3">
+								<svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg"
+									preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32">
+									<title>Placeholder</title>
+									<rect width="100%" height="100%" fill="#6f42c1"></rect><text x="50%" y="50%" fill="#6f42c1"
+										dy=".3em">32x32</text>
+								</svg>
+								<p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+									<strong class="d-block text-gray-dark">최종인 바보</strong>
+									글 내용
+								</p>
+							</div>
+							<small class="d-block text-right mt-3">
+								<a href="#">더 보기</a>
+							</small>
+						</div>
+					</div>
+
+					<!-- 인기 게시글 -->
 					<div class="col-md-4">
 						<div class="my-3 p-3 bg-white rounded shadow-sm">
 							<h6 class="border-bottom border-gray pb-2 mb-0">인기 게시글</h6>
@@ -180,8 +235,9 @@
 							</small>
 						</div>
 					</div>
+				
 
-					<!-- 인기 리뷰 -->
+				<!-- 인기 리뷰 -->
 					<div class="col-md-4">
 						<div class="my-3 p-3 bg-white rounded shadow-sm">
 							<h6 class="border-bottom border-gray pb-2 mb-0">인기 리뷰</h6>
@@ -227,70 +283,19 @@
 						</div>
 					</div>
 				</div>
-
-				<!-- 인기 리뷰 -->
-				<div class="col-md-4">
-					<div class="my-3 p-3 bg-white rounded shadow-sm">
-						<h6 class="border-bottom border-gray pb-2 mb-0">인기 리뷰</h6>
-						<div class="media text-muted pt-3">
-							<svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg"
-								preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32">
-								<title>Placeholder</title>
-								<rect width="100%" height="100%" fill="#007bff"></rect><text x="50%" y="50%" fill="#007bff"
-									dy=".3em">32x32</text>
-							</svg>
-							<p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-								<strong class="d-block text-gray-dark">최종인 바보</strong>
-								글 내용
-							</p>
-						</div>
-						<div class="media text-muted pt-3">
-							<svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg"
-								preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32">
-								<title>Placeholder</title>
-								<rect width="100%" height="100%" fill="#e83e8c"></rect><text x="50%" y="50%" fill="#e83e8c"
-									dy=".3em">32x32</text>
-							</svg>
-							<p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-								<strong class="d-block text-gray-dark">최종인 바보</strong>
-								글 내용
-							</p>
-						</div>
-						<div class="media text-muted pt-3">
-							<svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg"
-								preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32">
-								<title>Placeholder</title>
-								<rect width="100%" height="100%" fill="#6f42c1"></rect><text x="50%" y="50%" fill="#6f42c1"
-									dy=".3em">32x32</text>
-							</svg>
-							<p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-								<strong class="d-block text-gray-dark">최종인 바보</strong>
-								글 내용
-							</p>
-						</div>
-						<small class="d-block text-right mt-3">
-							<a href="#">더 보기</a>
-						</small>
-					</div>
-				</div>
 			</div>
 
+			<!--  -->
 
-			<!-- 홍보 -->
-			<!-- <div class="card">
-					<h5 class="card-header">유저들이 직접 등록하는 여행지</h5>
-					<div class="card-body">
-						<h5 class="card-title">Special title treatment</h5>
-						<p class="card-text">With supporting text below as a natural lead-in to additional content.
-						</p>
-						<a href="#" class="btn btn-primary">성지순례 등록하기</a>
-					</div>
-				</div>
-			</div> -->
+		
+
+			
+
+			<!--  -->
 
 			<section id="one">
 				<div class="container wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
-					<h2>Cards</h2>
+					<h2>다양한 장르</h2>
 					<p class="lead">
 						What you notice first in <a href="http://v4-alpha.getbootstrap.com/">Bootstrap 4</a> is that
 						<code>.panel</code> and <code>.well</code> have been replaced by the <code>.card</code>.
@@ -306,7 +311,7 @@
 							<img class="card-img-top img-fluid" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample13.jpg"
 								alt="Card image cap">
 							<div class="card-block">
-								<h4 class="card-title">Consise</h4>
+								<h4 class="card-title">영화</h4>
 								<p class="card-text">Cards are a good way to display content composed of different
 									types
 									of
@@ -320,7 +325,7 @@
 							<img class="card-img-top img-fluid" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample19.jpg"
 								alt="Card image cap">
 							<div class="card-block">
-								<h4 class="card-title">Grouped</h4>
+								<h4 class="card-title">드라마</h4>
 								<p class="card-text">Use card groups to render equal height cards without gutters
 									between
 									the cards. Use <code>.card-deck</code> for cards that aren’t attached to each
@@ -333,7 +338,7 @@
 							<img class="card-img-top img-fluid" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample14.jpg"
 								alt="Card image cap">
 							<div class="card-block">
-								<h4 class="card-title">Same Height</h4>
+								<h4 class="card-title">예능</h4>
 								<p class="card-text">A frequent problem occurs when you have multiple items in a row
 									with
 									content of varying height. Thanks to flexbox (and display:table) we now have
@@ -345,10 +350,7 @@
 					</div>
 				</div>
 			</section>
-
-
-
-
+			<!-- 카드 끝 -->
 
 
 
