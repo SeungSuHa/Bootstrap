@@ -18,8 +18,7 @@ nav .nav-link {
 	font-weight: bold;
 }
 
-nav li a:hover{
-	padding-bottom:0px;
+/* nav li a:hover{
   color:#fff;
   border-bottom: 4px solid red;
 	
@@ -27,15 +26,15 @@ nav li a:hover{
 
 nav li a:active{
 
-padding-bottom:0px;
 	border-bottom: 4px solid green;
-}
+} */
 
 /* 배너 */
 
-.jt {
+
+/* .jt {
 	background-color: #E9ECEF;
-}
+} */
 
 /* 메인 */
 
