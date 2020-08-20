@@ -22,26 +22,3 @@ nav div .country{
 	font-family: 'Noto Sans KR', sans-serif;
 	font-weight: bold;
 }
-
-/* 배너 */
-
-
-/* .jt {
-	background-color: #E9ECEF;
-} */
-
-/* 메인 */
-
-main {
-	height: 100%;
-}
-
-
-/* 푸터 */
-footer {
-	width: 100%;
-	height: 220px;
-	text-align: center;
-	background-color: #fff;
-	color: red;
-}
