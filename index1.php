@@ -385,14 +385,8 @@
 
 
 
-		<!-- 푸터 -->
-		<footer id="footer">
-			<div class="container">
-				<p>Copyright &copy; 청해진 All Right Reserved.</p>
-				<p>김진수 오종화 최종인 하승수</p>
-			</div>
-		</footer>
-
+	<!-- 푸터 -->
+<?php include "footer.html"?>
 </body>
 
 </html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+      function myFunction() {
+        var input, filter, cards, cardContainer, h5, title, i;
+        input = document.getElementById("myFilter");
+        filter = input.value.toUpperCase();
+        cardContainer = document.getElementById("myItems");
+        cards = cardContainer.getElementsByClassName("card");
+        for (i = 0; i < cards.length; i++) {
+            title = cards[i].querySelector(".card-body h5.card-title");
+            if (title.innerText.toUpperCase().indexOf(filter) > -1) {
+                cards[i].style.display = "";
+            } else {
+                cards[i].style.display = "none";
+            }
+        }
+    }
+    </script>  
+</head>
+<body>
+  
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 mb-3">
+        <input type="text" id="myFilter" class="form-control" onkeyup="myFunction()" placeholder="Search for names..">
+      </div>
+    </div>
+    <div class="row" id="myItems">
+      <div class="col-sm-12 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><a href="#">최종인</a></h5>
+            <h6 class="card-subtitle mb-2 text-muted">바카</h6>
+            <p class="card-text">바카</p>
+          </div>
+        </div>
+
+        <div class="row" id="myItems">
+          <div class="col-sm-12 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><a href="#">하승수</a></h5>
+                <h6 class="card-subtitle mb-2 text-muted">텐사이</h6>
+                <p class="card-text">텐사이</p>
+              </div>
+            </div>
+
+            <div class="row" id="myItems">
+              <div class="col-sm-12 mb-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="#">오현우</a></h5>
+                    <h6 class="card-subtitle mb-2 text-muted">마지만지</h6>
+                    <p class="card-text">마지만지</p>
+                  </div>
+                </div>
+
+                <div class="row" id="myItems">
+                  <div class="col-sm-12 mb-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="#">김진수</a></h5>
+                        <h6 class="card-subtitle mb-2 text-muted">카미사마</h6>
+                        <p class="card-text">카미사마</p>
+                      </div>
+                    </div>
+
+                    <div class="row" id="myItems">
+                      <div class="col-sm-12 mb-3">
+                        <div class="card">
+                          <div class="card-body">
+                            <h5 class="card-title"><a href="#">이경민</a></h5>
+                            <h6 class="card-subtitle mb-2 text-muted">한쵸우</h6>
+                            <p class="card-text">한쵸우</p>
+                          </div>
+                        </div>
+
+                        <div class="row" id="myItems">
+                          <div class="col-sm-12 mb-3">
+                            <div class="card">
+                              <div class="card-body">
+                                <h5 class="card-title"><a href="#">오종화</a></h5>
+                                <h6 class="card-subtitle mb-2 text-muted">종화쿤</h6>
+                                <p class="card-text">종화쿤</p>
+                              </div>
+                            </div>
+                            
+                            <div class="row" id="myItems">
+                              <div class="col-sm-12 mb-3">
+                                <div class="card">
+                                  <div class="card-body">
+                                    <h5 class="card-title"><a href="#">김학현</a></h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">하킴</h6>
+                                    <p class="card-text">하킴</p>
+                                  </div>
+                                </div>
+
+                                <div class="row" id="myItems">
+                                  <div class="col-sm-12 mb-3">
+                                    <div class="card">
+                                      <div class="card-body">
+                                        <h5 class="card-title"><a href="#">노승민</a></h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">팟수</h6>
+                                        <p class="card-text">팟수</p>
+                                      </div>
+                                    </div>
+    </div>
+  </div>
+</body>
+</html>

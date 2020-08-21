@@ -13,3 +13,8 @@ function myFunction() {
         }
     }
 }
+
+const workBtnContainer = document.querySelector('.work__categories');
+const projectContainer = document.querySelector('.work__project')
+consrt projects = document.querySelectorAll('project');
+work
